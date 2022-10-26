@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Card from "./Card";
+import TrailerCard from "./TrailerCard";
 
 import { NextPage } from 'next';
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
     category:any,
     moviesData:any
   }
-const FilterMenu:NextPage<Props> = ({
+const Trailer:NextPage<Props> = ({
     title,
     category,
     moviesData
@@ -36,11 +36,10 @@ const FilterMenu:NextPage<Props> = ({
       </div>
       <div className="flex gap-4  overflow-x-scroll">
        {data&&data.map((items:any)=>(
-        <Card  
+        <TrailerCard  
         title={items.title}
         date={items.date}
         img={items.img}
-        percentage={items.percentage}
         />
        ))}
       </div>
@@ -48,4 +47,4 @@ const FilterMenu:NextPage<Props> = ({
   );
 };
 
-export default FilterMenu;
+export default Trailer;
