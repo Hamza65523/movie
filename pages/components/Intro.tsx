@@ -1,6 +1,5 @@
 import { url } from 'inspector'
 import React from 'react'
-import LOGO from '../assets/img/bg.png'
 const Intro = () => {
   return (
     <div className='bg-cyan-500'>

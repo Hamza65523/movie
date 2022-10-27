@@ -105,6 +105,48 @@ export let moviesData = [
     percentage:76,
     category:'In Theaters'
     },
+    {
+    title:'hero',
+    date: 'Oct 13, 2022',
+    img:PIc,
+    percentage:76,
+    category:'Today'
+    },
+    {
+    title:'hero',
+    date: 'Oct 13, 2022',
+    img:PIc,
+    percentage:76,
+    category:'Today'
+    },
+    {
+    title:'hero',
+    date: 'Oct 13, 2022',
+    img:PIc,
+    percentage:76,
+    category:'Today'
+    },
+    {
+    title:'hero',
+    date: 'Oct 13, 2022',
+    img:PIc,
+    percentage:76,
+    category:'This Week'
+    },
+    {
+    title:'hero',
+    date: 'Oct 13, 2022',
+    img:PIc,
+    percentage:76,
+    category:'This Week'
+    },
+    {
+    title:'hero',
+    date: 'Oct 13, 2022',
+    img:PIc,
+    percentage:76,
+    category:'This Week'
+    },
     
 ]
 export let moviesData1 = [
@@ -113,6 +155,7 @@ export let moviesData1 = [
     date: 'Oct 13, 2022',
     img:PIc,
     percentage:76,
+    url:'https://www.youtube.com/watch?v=lD-NcoXJbsU',
     category:'Movies'
     },
     {
@@ -120,6 +163,7 @@ export let moviesData1 = [
     date: 'Oct 13, 2022',
     img:PIc,
     percentage:76,
+    url:'https://www.youtube.com/watch?v=-XVXJgcl-NE',
     category:'Movies'
     },
     {
@@ -127,6 +171,7 @@ export let moviesData1 = [
     date: 'Oct 13, 2022',
     img:PIc,
     percentage:76,
+    url:'https://www.youtube.com/watch?v=lD-NcoXJbsU',
     category:'Movies'
     },
     {
@@ -134,6 +179,7 @@ export let moviesData1 = [
     date: 'Oct 13, 2022',
     img:PIc,
     percentage:76,
+    url:'https://www.youtube.com/watch?v=lD-NcoXJbsU',
     category:'Movies'
     },
     {
@@ -141,34 +187,47 @@ export let moviesData1 = [
     date: 'Oct 13, 2022',
     img:PIc,
     percentage:76,
-    category:'TV'
+    url:'https://www.youtube.com/watch?v=lD-NcoXJbsU',
+    category:'Movies'
     },
     {
     title:'aladin',
     date: 'Oct 13, 2022',
     img:PIc,
     percentage:76,
-    category:'TV'
+    url:'https://www.youtube.com/watch?v=lD-NcoXJbsU',
+    category:'Movies'
     },
     {
-    title:'horror',
+    title:'aladin',
     date: 'Oct 13, 2022',
     img:PIc,
     percentage:76,
-    category:'TV'
+    url:'https://www.youtube.com/watch?v=lD-NcoXJbsU',
+    category:'Movies'
     },
     {
-    title:'horror',
+    title:'aladin',
     date: 'Oct 13, 2022',
     img:PIc,
     percentage:76,
-    category:'TV'
+    url:'https://www.youtube.com/watch?v=lD-NcoXJbsU',
+    category:'Movies'
     },
     {
-    title:'horror',
+    title:'aladin',
     date: 'Oct 13, 2022',
     img:PIc,
     percentage:76,
-    category:'TV'
+    url:'https://www.youtube.com/watch?v=lD-NcoXJbsU',
+    category:'Movies'
+    },
+    {
+    title:'aladin',
+    date: 'Oct 13, 2022',
+    img:PIc,
+    percentage:76,
+    url:'https://www.youtube.com/watch?v=lD-NcoXJbsU',
+    category:'Movies'
     },
 ]

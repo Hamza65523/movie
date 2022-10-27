@@ -21,10 +21,11 @@ const FilterMenu:NextPage<Props> = ({
     }
     
   useEffect(()=>{
-    handlerFilter('Streaming',0)
+    handlerFilter(category[0],0)
   },[])
   return (
-    <div className="w-[95%] mx-auto my-0">
+   <div className="cardtrailer" >
+     <div className="w-[95%] mx-auto my-0">
       <div className="flex  gap-4 py-4 px-4">
         <h1 className="font-bold text-2xl">{title}</h1>
         <div className={`${selected==0?'pr-2 ':selected!==0 &&  selected!==(category.length -1)?'px-2 ':selected==(category.length -1)?'pl-2 ':'' }flex  gap-4 items-center border-black font-bold border-[1px]  rounded-2xl`}>
@@ -45,6 +46,7 @@ const FilterMenu:NextPage<Props> = ({
        ))}
       </div>
     </div>
+   </div>
   );
 };
 
